@@ -1,8 +1,6 @@
 import React,{Component} from 'react';
 import Titre from '../../../components/Titre/Titre';
 import Bouton from '../../../components/Boutons/Bouton';
-import AjoutForm from '../../AjoutForm/AjoutForm';
-import { Routes, Route } from 'react-router';
 import { NavLink } from 'react-router-dom';
 
 class Contact extends Component {
