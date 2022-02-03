@@ -17,11 +17,11 @@ class Site extends Component {
             <div className="site">
                 <NavBar/>
                 <Routes>
-                <Route path="/localisation" element={<Localisation />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/" element={<Accueil />} />
+                <Route path="/react_nord/localisation" element={<Localisation />} />
+                <Route path="/react_nord/contact" element={<Contact />} />
+                <Route path="/react_nord/" element={<Accueil />} />
                 <Route path="*" element={<Erreur />}/>
-                <Route path="/contact/form" element={<AjoutForm/>}/>
+                <Route path="/react_nord/contact/form" element={<AjoutForm/>}/>
                 </Routes>
                 <div className="minSite"></div>
             </div>

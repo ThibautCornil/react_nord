@@ -11,13 +11,13 @@ const NavBar = props => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <NavLink to="/"  className="nav-link">Accueil</NavLink>
+                            <NavLink to="/react_nord"  className="nav-link">Accueil</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/localisation"  className="nav-link">Localisation</NavLink>
+                            <NavLink to="/react_nord/localisation"  className="nav-link">Localisation</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/contact"  className="nav-link">Contact</NavLink>
+                            <NavLink to="/react_nord/contact"  className="nav-link">Contact</NavLink>
                         </li>
                         </ul>
                 </div>
