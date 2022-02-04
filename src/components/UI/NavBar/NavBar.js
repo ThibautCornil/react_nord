@@ -9,7 +9,12 @@ const NavBar = props => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul className="navbar-nav mr-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
+                            <NavLink to="/react_nord"  className="nav-link">Lille MGA</NavLink>
+                        </li>
+                    </ul>
+                    <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
                         <li className="nav-item">
                             <NavLink to="/react_nord"  className="nav-link">Accueil</NavLink>
                         </li>

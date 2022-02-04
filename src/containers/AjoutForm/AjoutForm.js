@@ -9,14 +9,18 @@ class AjoutForm extends Component {
             <>
 
                 <Titre>Contactez-nous</Titre>
+                <div className='container'>
                 <div>
-                    <h2>Adresse :</h2>
-                    wwwww
-                    <h2>Téléphone:</h2>
-                    0606060606
+                <div className="form-group">
+                        <label htmlFor="adresse" className="form-label">Adresse :</label>
+                        <input type="texte" className="form-control" id="adresse" />
                 </div>
-                <h2>Vous préfèrez nous écrire?</h2>
-                <h2 className="text-center text-primary">Affichage du formulaire de contact</h2>
+                <div className="form-group">
+                        <label htmlFor="telephone" className="form-label">Téléphone :</label>
+                        <input type="number" className="form-control" id="telephone" />
+                    </div>
+                </div>
+                <br/>
                 <form>
                     <div className="form-group">
                         <label htmlFor="titre" className="form-label">Nom</label>
@@ -28,11 +32,14 @@ class AjoutForm extends Component {
                         />
                     </div>
                     <div className="form-group">
-                        <label htmlFor="message" className="form-label">Message</label>
-                        <input type="textarea"  className="form-control" id="message"  />
+                        <label htmlFor="message" className="form-label d-block">Message</label>
+                            <textarea id="message"  className="form-control">
+                                
+                            </textarea>
                     </div>
-                    <Bouton typeBtn="btn-primary"> <NavLink to="/contact"  className="nav-link">Valider</NavLink></Bouton>
+                    <Bouton typeBtn="btn-primary"> <NavLink to="/react_nord/contact"  className="nav-link">Valider</NavLink></Bouton>
                 </form>
+                </div>
 
             </>
         )

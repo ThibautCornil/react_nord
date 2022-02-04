@@ -1,13 +1,14 @@
 import React from "react";
 import Titre from "../../../components/Titre/Titre";
-import chateau from "../../../asset/images/chateau.jpg"
+import lille from "../../../asset/images/lille.jpg"
 
 const Accueil = props => {
 return(
     <>
-    <Titre>Bienvenue sur le Site de l'Ariège</Titre>
-    <p>Le site vous aidant a trouver les établissements publics de l'Ariège</p>
-    <img src={chateau} alt="chateau" width="100%" />
+
+    <Titre>Bienvenue sur le site du Nord</Titre>
+    <p className="text-center">Le site vous aidant a trouver les établissements publics de l'Ariège</p>
+    <img src={lille} alt="lille" width="100%" />
     </>
 );
 

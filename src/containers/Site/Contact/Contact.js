@@ -8,15 +8,21 @@ class Contact extends Component {
         return (
             <>
                 <Titre>Contactez-nous</Titre>
-                <div>
-                <h2>Adresse :</h2>
-                wwwww
-                <h2>Téléphone:</h2>
-                0606060606
-                </div>
-                <h2>Vous préfèrez nous écrire?</h2>
+            <div className='container'>
 
-            <Bouton typeBtn="btn-danger"> <NavLink to="/contact/form"  className="nav-link">Formulaire de contact</NavLink></Bouton>
+            <div className="form-group">
+                        <label htmlFor="adresse" className="form-label">Adresse :</label>
+                        <input type="texte" className="form-control" id="adresse" />
+                </div>
+                <div className="form-group">
+                        <label htmlFor="telephone" className="form-label">Téléphone :</label>
+                        <input type="number" className="form-control" id="telephone" />
+                </div>
+                
+                <p>Vous préfèrez nous écrire?</p>
+
+            <Bouton typeBtn="btn-light"> <NavLink to="/react_nord/contact/form" className='Color:white'>Formulaire de contact</NavLink></Bouton>
+            </div>
 
 
             </>
