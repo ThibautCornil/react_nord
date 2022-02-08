@@ -5,6 +5,7 @@ import {BrowserRouter} from "react-router-dom";
 
 function App() {
   return (
+    //utilisation du systeme de rootage
     <BrowserRouter>
       <Site />
     </BrowserRouter>

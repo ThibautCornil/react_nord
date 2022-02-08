@@ -14,9 +14,10 @@ class Site extends Component {
     render() {
         return (
             <>
-            <div className="site">
                 <NavBar/>
+            <div className="site">
                 <Routes>
+                    {/* Création des systèmes pour acceder a nos pages */}
                 <Route path="/react_nord/localisation" element={<Localisation />} />
                 <Route path="/react_nord/contact" element={<Contact />} />
                 <Route path="/react_nord/" element={<Accueil />} />
