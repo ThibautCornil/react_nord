@@ -1,3 +1,6 @@
+/*----------------------------------------
+-----------Import des components----------
+----------------------------------------*/
 import React from "react";
 import classes from "./Titre.module.css"
 
@@ -7,5 +10,7 @@ const Titre = props => {
         <h1 className={monCss}>{props.children}</h1>
     );
 }
-
+/*----------------------------------------
+-----------Export des components----------
+----------------------------------------*/
 export default Titre;

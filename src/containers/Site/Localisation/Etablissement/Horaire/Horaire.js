@@ -1,5 +1,12 @@
+/*----------------------------------------
+-----------Import des components----------
+----------------------------------------*/
 import React from "react";
 
+
+/*----------------------------------------
+-------------fonction horaires------------
+----------------------------------------*/
 const Horaires = props => {
     let content = props.horaires.map((horaire, index) => { /* on met les valeurs de horaires.map pour parcourir le tableau, on récupère les horaires et les index */
         return <li key={index}>
@@ -24,4 +31,7 @@ const Horaires = props => {
     );
 
 }
+/*----------------------------------------
+------------Export du component-----------
+----------------------------------------*/
 export default Horaires;

@@ -1,3 +1,7 @@
+/*----------------------------------------
+-----------Import des components----------
+----------------------------------------*/
+
 import React, { Component } from 'react';
 import Bouton from '../../components/Boutons/Bouton';
 import Titre from '../../components/Titre/Titre';
@@ -12,11 +16,15 @@ import * as Yup from "yup";
 const AjoutForm = (props) => {
     return (
         <>
+{/* ----------------------------------------------------------- */}
+{/* Mise en place du formulaire de contact avec la partie caché */}
+{/* ----------------------------------------------------------- */}
 
             <Titre>Contactez-nous</Titre>
             <div className='container'>
             <div>
             <div className="form-group">
+                {/* ajout des icones grâce à iconify */}
             <Icon icon="entypo:location" color="#27ae60" width="25" height="25" inline={true} />
                     <label htmlFor="adresse" className="form-label">Adresse :</label>
                     <input type="texte" className="form-control" id="adresse" />
@@ -65,7 +73,9 @@ const AjoutForm = (props) => {
     )
 }
 
-
+/*----------------------------------------
+----------Mise en place de Formik---------
+----------------------------------------*/
 
 
 

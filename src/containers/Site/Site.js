@@ -1,3 +1,7 @@
+/*----------------------------------------
+-----------Import des components----------
+----------------------------------------*/
+
 import React,{Component} from 'react';
 import Accueil from './Accueil/Accueil';
 import Contact from './Contact/Contact';
@@ -31,4 +35,8 @@ class Site extends Component {
         )
     }
 }
+
+/*----------------------------------------
+------------Export du component-----------
+----------------------------------------*/
 export default Site;

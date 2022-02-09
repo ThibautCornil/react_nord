@@ -1,3 +1,6 @@
+/*----------------------------------------
+-----------Import des components----------
+----------------------------------------*/
 import React,{Component} from 'react';
 import Titre from '../../../components/Titre/Titre';
 import Bouton from '../../../components/Boutons/Bouton';
@@ -8,6 +11,9 @@ class Contact extends Component {
     render() {
         return (
             <>
+{/* ----------------------------------------------------------- */}
+{/* Mise en place du formulaire de contact avec la partie caché */}
+{/* ----------------------------------------------------------- */}
                 <Titre>Contactez-nous</Titre>
             <div className='container'>
 
@@ -32,4 +38,8 @@ class Contact extends Component {
         )
     }
 }
+
+/*----------------------------------------
+-----------Export des components----------
+----------------------------------------*/
 export default Contact;

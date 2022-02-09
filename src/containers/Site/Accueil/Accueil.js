@@ -1,7 +1,14 @@
+/*----------------------------------------
+-----------Import des components----------
+----------------------------------------*/
 import React from "react";
 import Titre from "../../../components/Titre/Titre";
 import lille from "../../../asset/images/lille.jpg"
 
+
+/*----------------------------------------
+-------------fonction accueil-------------
+----------------------------------------*/
 const Accueil = props => {
 return(
     <>
@@ -13,4 +20,8 @@ return(
 );
 
 }
+
+/*----------------------------------------
+------------Export du component-----------
+----------------------------------------*/
 export default Accueil;

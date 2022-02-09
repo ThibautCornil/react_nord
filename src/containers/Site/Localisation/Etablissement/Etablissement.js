@@ -1,7 +1,13 @@
+/*----------------------------------------
+-----------Import des components----------
+----------------------------------------*/
 import React from "react";
-import { NavLink } from "react-router-dom";
 import Horaires from "./Horaire/Horaire";
 
+
+/*----------------------------------------
+----------Fonction Etablissement----------
+----------------------------------------*/
 const Etablissement = props => {
     return (
         <div>
@@ -30,4 +36,7 @@ const Etablissement = props => {
     );
 
 }
+/*----------------------------------------
+------------Export du component-----------
+----------------------------------------*/
 export default Etablissement;
