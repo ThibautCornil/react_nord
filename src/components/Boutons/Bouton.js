@@ -9,11 +9,11 @@ import React from "react";
 ----------------------------------------*/
 const bouton = props => {
     const btnCss = `btn ${props.typeBtn} ${props.large} m-1`
-return(
-    <>
-    <button className={btnCss} onClick={props.cequejeveux}>{props.children}</button>
-    </>
-);
+    return (
+        <>
+            <button className={btnCss} onClick={props.cequejeveux}>{props.children}</button>
+        </>
+    );
 
 }
 

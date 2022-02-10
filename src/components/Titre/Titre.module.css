@@ -1,8 +1,8 @@
-
-.policeTitre{
+.policeTitre {
     color: white;
-    font-family: 'Indie Flower', cursive;}
+    font-family: 'Indie Flower', cursive;
+}
 
-.policeTitre:hover{
-    color: darkblue!important;
+.policeTitre:hover {
+    color: darkblue !important;
 }
