@@ -10,7 +10,7 @@ import Horaires from "./Horaire/Horaire";
 ----------------------------------------*/
 const Etablissement = props => {
     return (
-        <div>
+        <div key={props.id}>
             <div class="card">
                 <div class="card-header">
                     {props.nom} {/* je récupere la propriété que j'ai nommé nom dans localisation.js */}
@@ -21,8 +21,8 @@ const Etablissement = props => {
                     {props.mail && `Email : ${props.mail}`} <br /> <br /> {/* Si le props mail existe alors on affiche Email : la valeur*/}
                     <p class="card-text">
                         <strong> Adresse : <br /> </strong>
-                        {props.adresse[0].lignes[0]} {/* Je ne veux que la première ligne du tableau donc première ligne de adresses et la première ligne */}
-                        {props.adresse[0].codePostal} - {props.adresse[0].commune}
+                        {props.adresses[0].lignes[0]} {/* Je ne veux que la première ligne du tableau donc première ligne de adresses et la première ligne */}
+                        {props.adresses[0].codePostal} - {props.adresses[0].commune}
 
                         <br />
                         <br />
