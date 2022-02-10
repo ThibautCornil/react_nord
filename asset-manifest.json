@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react_nord/static/css/main.46fa6d9d.css",
-    "main.js": "/react_nord/static/js/main.ac391e5b.js",
+    "main.js": "/react_nord/static/js/main.b1ee4fab.js",
     "static/media/lille.jpg": "/react_nord/static/media/lille.d6f7397d6ad9dc418f03.jpg",
     "index.html": "/react_nord/index.html",
     "main.46fa6d9d.css.map": "/react_nord/static/css/main.46fa6d9d.css.map",
-    "main.ac391e5b.js.map": "/react_nord/static/js/main.ac391e5b.js.map"
+    "main.b1ee4fab.js.map": "/react_nord/static/js/main.b1ee4fab.js.map"
   },
   "entrypoints": [
     "static/css/main.46fa6d9d.css",
-    "static/js/main.ac391e5b.js"
+    "static/js/main.b1ee4fab.js"
   ]
 }
