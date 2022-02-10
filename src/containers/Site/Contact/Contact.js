@@ -16,17 +16,17 @@ class Contact extends Component {
                 {/* ----------------------------------------------------------- */}
                 <Titre>Contactez-nous</Titre>
                 <div className='container text-center'>
-                    <div className='row no-gutters'>
-                        <div className="card col-md-6 text-center">
+                    <div className='row no-gutters justify-content-around'>
+                        <div className="card col-md-4 text-center">
                             <div class="card-body">
-                                <h5 class="card-title"><Icon icon="entypo:location" color="#27ae60" width="25" height="25" inline={true} /></h5>
+                                <h5 class="card-title"><Icon icon="entypo:location" color="#18BC9C" width="25" height="25" inline={true} /></h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Adresse</h6>
                                 <p class="card-text">19 rue Jeanne d'Arc 59190 Hazebrouck</p>
                             </div>
                         </div>
-                        <div className="card col-md-6 text-center">
+                        <div className="card col-md-4 text-center">
                             <div class="card-body">
-                                <h5 class="card-title"><Icon icon="akar-icons:phone" color="#27ae60" width="25" height="25" /></h5>
+                                <h5 class="card-title"><Icon icon="akar-icons:phone" color="#18BC9C" width="25" height="25" /></h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Téléphone</h6>
                                 <p class="card-text">06.06.06.06.06</p>
                             </div>
