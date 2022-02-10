@@ -10,16 +10,17 @@ import NavBar from '../../components/UI/NavBar/NavBar';
 import { Routes, Route } from 'react-router';
 import Erreur from '../../components/Erreur/Erreur';
 import Footer from '../../components/Footer/Footer';
-import classes from '../../App.css';
 import AjoutForm from '../AjoutForm/AjoutForm';
+
 
 
 class Site extends Component {
     render() {
         return (
             <>
-                <NavBar/>
             <div className="site">
+                <NavBar/>
+            <div className="container">
                 <Routes>
                     {/* Création des systèmes pour acceder a nos pages */}
                 <Route path="/react_nord/localisation" element={<Localisation />} />
@@ -28,9 +29,12 @@ class Site extends Component {
                 <Route path="*" element={<Erreur />}/>
                 <Route path="/react_nord/contact/form" element={<AjoutForm/>}/>
                 </Routes>
-                <div className="minSite"></div>
             </div>
-                <Footer/>
+                <div className="minSite"></div>    
+            </div>
+            
+            <Footer/>
+                
             </>
         )
     }

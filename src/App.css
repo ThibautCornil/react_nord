@@ -3,7 +3,11 @@
     margin-bottom: -40px;
 }
 
-footer, .minSite{
+footer{
     height: 40px;
     text-transform: capitalize;
+}
+
+.minSite{
+    height: 41px;
 }

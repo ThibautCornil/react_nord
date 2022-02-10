@@ -30,7 +30,7 @@ class Localisation extends Component {
         if (this.state.recherche){
             let fin = this.state.recherche.length / 10;
             if (this.state.recherche.length % 10 !== 0) fin++;
-            for (let i = 0; i <= fin; i++) {
+            for (let i = 1; i <= fin; i++) {
                 pagination.push(
                     <Bouton
                         key={i}

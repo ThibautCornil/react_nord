@@ -2,7 +2,6 @@
 -----------Import des components----------
 ----------------------------------------*/
 
-import React, { Component } from 'react';
 import Bouton from '../../components/Boutons/Bouton';
 import Titre from '../../components/Titre/Titre';
 import { NavLink } from 'react-router-dom';
@@ -27,12 +26,12 @@ const AjoutForm = (props) => {
                 {/* ajout des icones grâce à iconify */}
             <Icon icon="entypo:location" color="#27ae60" width="25" height="25" inline={true} />
                     <label htmlFor="adresse" className="form-label">Adresse :</label>
-                    <input type="texte" className="form-control" id="adresse" />
+                    <input type="texte" className="form-control" id="adresse" value={"19 rue jeanne d'arc"} />
             </div>
             <div className="form-group">
             <Icon icon="akar-icons:phone" color="#27ae60" width="25" height="25"  />
                     <label htmlFor="telephone" className="form-label">Téléphone :</label>
-                    <input type="number" className="form-control" id="telephone" />
+                    <input type="number" className="form-control" id="telephone" value={"0606060606"} />
                 </div>
             </div>
             <br/>
