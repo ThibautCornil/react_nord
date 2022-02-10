@@ -15,17 +15,22 @@ class Contact extends Component {
                 {/* Mise en place du formulaire de contact avec la partie caché */}
                 {/* ----------------------------------------------------------- */}
                 <Titre>Contactez-nous</Titre>
-                <div className='container'>
-
-                    <div className="form-group">
-                        <Icon icon="entypo:location" color="#27ae60" width="25" height="25" inline={true} />
-                        <label htmlFor="adresse" className="form-label m-2">Adresse :</label>
-                        <input type="texte" className="form-control" id="adresse" value={"19 rue jeanne d'arc"} />
-                    </div>
-                    <div className="form-group">
-                        <Icon icon="akar-icons:phone" color="#27ae60" width="25" height="25" />
-                        <label htmlFor="telephone" className="form-label">Téléphone :</label>
-                        <input type="number" className="form-control" id="telephone" value={"0606060606"} />
+                <div className='container text-center'>
+                    <div className='row no-gutters'>
+                        <div className="card col-md-6 text-center">
+                            <div class="card-body">
+                                <h5 class="card-title"><Icon icon="entypo:location" color="#27ae60" width="25" height="25" inline={true} /></h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Adresse</h6>
+                                <p class="card-text">19 rue Jeanne d'Arc 59190 Hazebrouck</p>
+                            </div>
+                        </div>
+                        <div className="card col-md-6 text-center">
+                            <div class="card-body">
+                                <h5 class="card-title"><Icon icon="akar-icons:phone" color="#27ae60" width="25" height="25" /></h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Téléphone</h6>
+                                <p class="card-text">06.06.06.06.06</p>
+                            </div>
+                        </div>
                     </div>
 
                     <p>Vous préfèrez nous écrire?</p>
