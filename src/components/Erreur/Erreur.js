@@ -7,7 +7,7 @@ import Titre from "../Titre/Titre";
 const Erreur = props => {
     return (
         <div className="alert alert-danger">
-            <Titre>THEO 404</Titre>
+            <Titre>Erreur 404</Titre>
         </div>
     );
 
